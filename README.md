@@ -31,5 +31,5 @@ Ce projet consiste à développer un blog interactif permettant aux utilisateurs
 
 ## Auteurs 
 
-Lakshya Selvakumar - lakshya.s1553@gmail.com 
-Nissi Otouli - elnissio@gmail.com
+- Lakshya Selvakumar - lakshya.s1553@gmail.com 
+- Nissi Otouli - elnissio@gmail.com
