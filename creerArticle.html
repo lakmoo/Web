@@ -1,0 +1,53 @@
+<!-- Projet de programmation Web de Lakshya Selvakumar et Nissi Otouli -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="creerArticle.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Bits &amp; curiosités</h1>
+        <nav>
+            <ul>
+                <li><a href="projet_V1.php">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="creer_article" class="creer_article">
+            <form class="formulaire">
+                <fieldset>
+                    <legend>
+                        <h2>Créez votre article !</h2>
+                    </legend>
+
+                    <input type="text" id="titre" placeholder="Titre de l'article" required>
+
+                    <!-- Pour écrire du texte sur plusieurs lignes -->
+                    <textarea id="contenu" placeholder="Contenu de l'article" required></textarea>
+
+                    <input type="text" id="nom" placeholder="Votre nom" required>
+
+                    <button type="submit">Publier</button>
+                    <button type="reset">Réinitialiser</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog de Lakshya et Nissi.</p>
+    </footer>
+
+    <script src="creerArticle.js"></script>
+</body>
+
+</html>

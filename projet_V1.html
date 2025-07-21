@@ -1,0 +1,56 @@
+<!-- Projet de programmation Web de Lakshya Selvakumar et Nissi Otouli -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0/1</title>
+    <link rel="stylesheet" href="projet_V1.css">
+    <!-- Petit icône qui apparaît dans l'onglet de la page -->
+    <link rel="icon" href="img/icon.png" type="image/png">
+</head>
+
+<body>
+     <header>
+        <h1>Bits &amp; Curiosités</h1>
+        <!-- Barre de navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="creerArticle.html">Créer un article</a></li>
+                <li><a href="connexionPage.php">Connexion</a></li>
+                <li> <img src="img/Nuit.png" alt="Nuit" id="theme"></li>
+            </ul>
+        </nav>
+
+        <div id = "Mus">
+            <img src="img/Music_logo_on.png" alt="MusicON" id="iconM">
+            <audio id="Musique">
+                <source src="musique/NMWI.mp3" type="audio/mp3">
+                Votre navigateur ne prend pas en charge la balise audio.
+            </audio> 
+        </div>
+
+        
+
+    </header>
+
+    <main class="articles">
+        <section id="bloc_articles">
+            <h2>Derniers Articles</h2>
+            <!-- Les articles seront affcihés ici par JS -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog de Lakshya et Nissi. Tous droits réservés.</p>
+    </footer>
+    <script src="Mode_jour_nuit.js"></script>
+    <script src="afficherArticle.js"></script>
+    <script src="background_musique.js"></script>
+
+</body>
+
+</html>

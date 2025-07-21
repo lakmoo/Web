@@ -1,0 +1,83 @@
+/* Réinitialisation des marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantit que padding et border ne perturbent pas la largeur/hauteur */
+}
+
+body {
+    background: #0080ff;  /* Couleur de fond */
+    display: flex;
+    justify-content: center;  /* Centrage horizontal */
+    align-items: center;      /* Centrage vertical */
+    height: 100vh;            /* 100% de la hauteur de la fenêtre */
+    margin: 0;               /* Supprimer les marges par défaut */
+    
+}
+#container {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;  
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);  
+    border-radius: 8px;  
+}
+input[type=text], input[type=password] {
+    width: 100%; 
+    padding: 12px 20px;  
+    margin: 8px 0;       
+    display: inline-block;
+    border: 1px solid #ccc;  
+    box-sizing: border-box;  
+    font-size: 16px;
+    border-radius: 4px
+}
+
+/* Style pour le bouton */
+button[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet au survol du bouton */
+button[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.acc {
+    text-align: center;
+    text-decoration: none;
+    font-family: fantasy;
+    font-weight: bold;
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+.acc:hover {
+    text-align: center;
+    text-decoration: none;
+    font-family: fantasy;
+    font-weight: bold;
+    color:#ff0000;
+    text-transform: uppercase;
+}
+a:hover {
+    color: yellowgreen;
+}

@@ -1,0 +1,102 @@
+/* Projet de programmation Web de Lakshya Selvakumar et Nissi Otouli */
+
+/* Importer les polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&family=Dancing+Script:wght@400;700&display=swap');
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* En-tête */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Formulaire de création d'article */
+.creer_article {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.formulaire input,
+.formulaire textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.formulaire textarea {
+    min-height: 200px;
+}
+
+/* Boutons */
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #2c3e50;
+    color: #fff;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
