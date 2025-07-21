@@ -25,7 +25,7 @@ Ce projet consiste à développer un blog interactif permettant aux utilisateurs
 
 1. Cloner le dépôt :
    ```bash
-   git clone [URL_DU_DEPOT]
+   git clone https://github.com/lakmoo/Web.git
 
 2. Ouvrir projetV1.html dans votre navigateur web préféré
 
